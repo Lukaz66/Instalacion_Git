@@ -5,22 +5,22 @@ Descripción de Instalación
 USO GIT
 
 - git config --version
-- git config --global user.name "Lukas"
-- git config --global user.email "lukas_cmlp13@hotmail.com"
-- git config --global -l
+- git config --global user.name "Lukas" --> (nombre del usuario)
+- git config --global user.email "lukas_cmlp13@hotmail.com" --> (correo de github)
+- git config --global -l  -->  verifica el usuario y email
 
-- cd 'localizacion de la carpeta'
+- cd 'd/carpeta/nombre.archivo'  --> poner la direccion del archivo o jalarlo con el mouse
 - git init 
-- git status
-- git add .
-- git status
+- git status  --> verifica si hay cambios
+- git add .  --> añade los cambios realizados
+- git status  
 
-- git commit -m "Commit Inicial"
+- git commit -m "Commit Inicial"  --> comentar los cambios
 - git status
 
 -------Probar si hay cambios--------cambiar una parte del proyecto
 - git status
-- git diff -----------conparar versiones
+- git diff -->  comparar la version anterior con la nueva si hay cambios 
 - git checkout .  ------- borra los cambios realizados
 
 ------Hacer nuevo commit-----------modificar cualquier pagina
